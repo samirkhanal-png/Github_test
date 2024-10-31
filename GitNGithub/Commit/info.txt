@@ -1,0 +1,10 @@
+Every changes or stages we save it by commiting 
+
+We commit to the changes
+
+git commit -m "Initial Code Added"
+
+
+
+
+
