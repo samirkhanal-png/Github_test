@@ -16,3 +16,9 @@ function add(a,num1){
   return a+num1 
 }
 
+let a=2
+let num2=3
+function remove(a,num2){
+  return a+num2
+}
+
