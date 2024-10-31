@@ -10,3 +10,9 @@ let name2="samir"
 
 let name3="khanal"
 
+let num1=2
+
+function add(a,num1){
+  return a+num1 
+}
+
