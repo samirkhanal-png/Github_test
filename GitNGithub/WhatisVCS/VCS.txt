@@ -1,0 +1,42 @@
+VCS stands for Version Control System
+
+Over time there is changes in the code
+
+Version control system tracks and manages these changes
+
+State1
+const age=24
+
+State2
+const age=24
+const name="Piyush"
+
+State 3
+const age=24
+const name="Piyush"
+function getName(){
+  return name1;
+}
+
+At any point we can revert back to the previous states
+
+Git is the most famous version control system
+
+Most of  the company and startup uses git
+
+Git is the free and open source distributed version control system
+
+const age=24
+const name="Piyush"
+
+const dob=2006/01/12
+Git also tracks the changes done by its username
+
+function getName(){
+  return name1;
+}
+
+Global username
+git config --global user-name "[firstname lastname]"
+
+Setting up Global configuration of Git

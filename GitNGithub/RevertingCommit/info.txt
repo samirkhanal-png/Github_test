@@ -1,0 +1,18 @@
+Commit history looks like a linked list.
+
+Head always points to the latest commit.
+
+Reverting is the process of going back to the previous commit when the current commit fails.
+
+make the head point the code one step before
+
+git reset --hard commitID does this 
+
+135c27c (HEAD -> master) Danish lawnasur2
+4165726 Danish lawnasur (Correct one) points to this
+07cb854 Changes Done
+
+git revert commitID
+
+Whatever has been added in this commit will be removed and whatever has been removed will be added 
+
