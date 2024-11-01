@@ -1,0 +1,43 @@
+git remote add 
+
+=>make the local machine's code get synced to the remote server
+
+we can give a remote server a user friendly name
+
+By convention we call it origin 
+
+then we give the address
+
+git remote add origin address(SSH)
+
+Anyone can push on the server with the link
+
+But we use SSH key to push due to which it is more secured
+
+Here’s the general format of an SSH public key:
+
+php
+Copy code
+<key_type> <key_value> <comment>
+Key Type: Usually either ssh-rsa or ssh-ed25519.
+Key Value: A long, encoded string that represents the public key.
+Comment: Typically your email or a label to identify the key’s purpose.
+Example of an SSH Key
+bash
+Copy code
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKN9gSkskYk1RViJ/ZbB1/niHmf5tjEAm7xN+03e3f1D your_email@example.com
+This format is what you’ll paste into GitHub (or other services) when adding an SSH key. If you generated the key using ssh-keygen, you can find it in your ~/.ssh/ directory, in a file typically named id_ed25519.pub or id_rsa.pub.
+
+To view the key, run:
+
+bash
+Copy code
+cat ~/.ssh/id_ed25519.pub
+or
+
+bash
+Copy code
+cat ~/.ssh/id_rsa.pub
+Copy the entire line and paste it wherever needed.
+
+In Git (and GitHub), "upstream" refers to the remote branch that your local branch is tracking. Setting an upstream branch allows you to synchronize your local changes with a specific branch on the remote repository, making git push and git pull commands simpler.
